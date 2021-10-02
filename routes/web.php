@@ -55,3 +55,15 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::resource('elonlars', App\Http\Controllers\ElonlarController::class);
+
+
+
+Route::group(['prefix' => 'prof'], function () {
+    Route::resource('profs', App\Http\Controllers\Prof\ProfController::class, ["as" => 'prof']);
+});
+
+
+Route::resource('tests', App\Http\Controllers\TestController::class);
+
+
+Route::resource('test2s', App\Http\Controllers\Test2Controller::class);

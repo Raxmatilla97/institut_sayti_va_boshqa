@@ -1,7 +1,5 @@
-<li class="nav-item">
-    <a href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') }}"
-       class="nav-link {{ Request::is('$ROUTE_PREFIX$$MODEL_NAME_PLURAL_CAMEL$*') ? 'active' : '' }}">
-        <p>$MODEL_NAME_PLURAL_HUMAN$</p>
-    </a>
-</li>
 
+
+ <li class="bold"><a class="waves-effect waves-cyan {{ Request::is('$ROUTE_PREFIX$$MODEL_NAME_PLURAL_CAMEL$*') ? 'active' : '' }}" href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') }}"><i class="material-icons">format_list_bulleted</i>
+ <span class="menu-title" data-i18n="$MODEL_NAME_PLURAL_HUMAN$">$MODEL_NAME_PLURAL_HUMAN$</span><span class="badge new badge pill pink accent-2 float-right mr-2">1</span></a>
+        </li>
