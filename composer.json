@@ -10,12 +10,15 @@
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "infyomlabs/adminlte-templates": "^3.0",
+        "infyomlabs/generator-builder": "dev-master",
         "infyomlabs/laravel-generator": "^3.0",
         "laravel/framework": "^8.54",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.3",
-        "laravelcollective/html": "^6.2"
+        "laravelcollective/html": "^6.2",
+        "yajra/laravel-datatables": "1.5",
+        "yajra/laravel-datatables-oracle": "~9.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
